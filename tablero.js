@@ -406,8 +406,9 @@ class Tablero {
 			return false;
 		}
 			// aquí se debe validar si en la posición de destino persiste el jaque.
+			/*
 			let _newTablero =JSON.parse( JSON.stringify( this.tablero ) );
-			_newTablero[pieza.pos[0]][pieza.pos[1]] = 0;
+			_newTablero[_pieza.pos[0]][_pieza.pos[1]] = 0;
 
 			_newTablero[posDestino[0]][posDestino[1]] = _pieza*_bando; //se mueve la pieza a la posición final
 
@@ -416,7 +417,7 @@ class Tablero {
 				return;
 			}
 
-		
+		*/
 
 		switch(_pieza){
 			case 1: // Peon
